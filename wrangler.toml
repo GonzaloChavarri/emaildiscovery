@@ -7,3 +7,8 @@ workers_dev = true
 
 [site]
 bucket = "./public"
+
+[[bindings]]
+type = "static_content"
+name = "STATIC"
+directory = "./public"
