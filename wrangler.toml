@@ -1,14 +1,9 @@
-name = "emaildiscovery"             # Match the expected Worker name
-account_id = "95f1a82ff6a6e32e66b28a134e1e0287"  # Your correct account ID
+name = "emaildiscovery"
+account_id = "95f1a82ff6a6e32e66b28a134e1e0287"
 compatibility_date = "2024-05-01"
 
-main = "src/index.js"              # ✅ REPLACEMENT for deprecated site.entry-point
-workers_dev = true                 # Optional: set to false if using a custom domain
+main = "src/index.js"
+workers_dev = true
 
 [site]
-bucket = "./public"               # Static frontend
-
-# Removed deprecated or unexpected fields:
-# - type
-# - build.upload.format
-# - site.entry-point
+bucket = "./public"
